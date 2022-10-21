@@ -1,0 +1,54 @@
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+.logo {
+    display:flex;
+    flex-wrap: wrap;
+    width: 5em;
+}
+header{ 
+    display: flex;
+    align-self: auto;
+    
+
+}
+.menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.container {
+    margin: 2rem auto;
+    transition: all 1s;
+}
+.container:hover {
+    
+}
+.grid-container > div {
+   background-color: brown;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    gap: 10px;
+  }
+  .container {
+    display: flex;
+  }
+.manu-list ul, li {
+    display: flex;
+    justify-content: center;
+}
